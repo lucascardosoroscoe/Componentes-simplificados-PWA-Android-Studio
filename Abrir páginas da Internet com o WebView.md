@@ -17,6 +17,7 @@ Activity.xml
     android:layout_marginTop="0dp" />
 
 .java
+<pre><code>
 public class Home extends AppCompatActivity {
     //Variável WebView
     private WebView webView ;
@@ -35,7 +36,7 @@ public class Home extends AppCompatActivity {
 	webView.setWebChromeClient(new WebChromeClient());
 	webView.setWebViewClient(new WebViewClient());
 	webView.getSettings().setJavaScriptEnabled(true);
-	webView.loadUrl("http://139.59.210.161/");
+	webView.loadUrl("URL");
 
     }
 
@@ -53,3 +54,5 @@ public class Home extends AppCompatActivity {
 
 }
 //Para executar mudança ULR: webView.loadUrl(“URL”);
+
+</code></pre>
