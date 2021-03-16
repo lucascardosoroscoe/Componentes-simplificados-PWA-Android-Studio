@@ -2,7 +2,7 @@
 ## AndroidManifest.xml //Liberar Acesso à Internet
 
 <pre><code>
-<uses-permission android:name="android.permission.INTERNET" />
+< uses-permission android:name="android.permission.INTERNET" />
 
 //Err ClearText -> Colocar como atributo da Tag Aplication (Evita erro "CLEARTEXT" na aplicação)
 
@@ -10,7 +10,7 @@ android:usesCleartextTraffic="true"
 
 </code></pre>
 
-##Activity.xml //Marcação e estilização do webView tela cheia
+## Activity.xml //Marcação e estilização do webView tela cheia
 
 <pre><code>
 
@@ -25,7 +25,7 @@ android:usesCleartextTraffic="true"
 </code></pre>
 
 
-##.java //Código de implementação do WebView em JAVA
+## .java //Código de implementação do WebView em JAVA
 
 <pre><code>
 public class Home extends AppCompatActivity {
