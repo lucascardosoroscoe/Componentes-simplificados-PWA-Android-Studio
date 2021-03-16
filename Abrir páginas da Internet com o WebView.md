@@ -1,5 +1,5 @@
-**Abrir páginas da Internet com o WebView**
-AndroidManifest.xml
+# Abrir páginas da Internet com o WebView
+* AndroidManifest.xml
 //Liberar Internet
 <uses-permission android:name="android.permission.INTERNET" />
 //Err ClearText -> Colocar como atributo da Tag Aplication
