@@ -14,7 +14,7 @@ android:usesCleartextTraffic="true"
 
 <pre><code>
 
-<WebView
+< WebView
     android:id="@+id/webview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
